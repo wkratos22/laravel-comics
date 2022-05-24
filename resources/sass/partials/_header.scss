@@ -1,10 +1,19 @@
+@import './variabili';
+
 .blue-nav{
-    background-color: #409fff;
+    background-color: $color-blue;
     height: 20px;
 }
 
+.blue-nav-inside{
+    width: 55%;
+    margin: auto;
+    text-align: end;
+}
+
 .nav-bar{
-    text-align: center;
+    width: 70%;
+    margin: auto;
 }
 
 li{
@@ -12,14 +21,33 @@ li{
     display: inline-block;
     padding: 20px; 
     vertical-align: middle;
+    font-family: $font;
     a{
         text-decoration: none;
         color: black;
+        font-size: 15px;
         &:hover{
-            color:#409fff;
+            color: $color-blue;
             cursor: pointer;
-            border-bottom: 4px solid #409fff;
-            height: 109px;
+            border-bottom: 4px solid $color-blue;
         }
     }
+}
+
+.logo{
+    width: 90px;
+}
+
+.inline{
+    display: inline-block;
+}
+
+.head-p{
+    color: $text-white;
+    padding-left: 10%;
+    font-family: $font;
+}
+
+.hr{
+    color: $color-blue;
 }

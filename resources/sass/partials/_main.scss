@@ -1,0 +1,93 @@
+@import './variabili';
+
+.bg-main{
+    background-image: url('../../../public/images/jumbotron.jpg');
+    height: 400px;
+    background-color: red;
+}
+
+.current-series{
+    background-color: $color-blue ;
+    width: 300px;
+    text-align: center;
+    color: $text-white; 
+    padding: 10px;
+    font-family: $font;
+    position: absolute;
+    margin-top: -1.5%;
+}
+
+.bg-black-series{
+    background-color: rgb(34, 34, 34);
+    height: 960px;
+}
+
+.container{
+    width: 75%;
+    margin: auto;
+    margin-left: 17%;
+}
+
+.card{
+    width: calc(100% / 7);
+    display: inline-block;
+    margin-top: 70px;
+    margin-left:10px;
+}
+
+.series{
+    color: $text-white;
+    font-family: $font;
+    margin-top:10px;
+    text-transform:uppercase;
+}
+
+.button{
+    padding: 7px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: $color-blue;
+    border: 0px solid;
+    color: $text-white;
+    font-family: $font;
+    margin-top: 80px;
+    margin-left: 39%;
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+
+//sss
+
+
+.bg-color{
+    background-color: #0080ff;
+    text-align: center;
+}
+
+.content{
+    color: white;
+    padding: 60px;
+}
+
+.logo-svg{
+    width: 80px;
+}
+
+.li2{
+   display: inline-block; 
+   vertical-align: middle;
+   padding: 30px;
+   padding-left:50px ;
+}
+
+.logo{
+    width: 80px;
+}
+
+p{
+    display: inline-block;
+    color: white;
+    margin-left:-20px ;
+}

@@ -4,12 +4,19 @@
 }
 
 .blue-nav {
-  background-color: #409fff;
+  background-color: #0C7CEC;
   height: 20px;
 }
 
+.blue-nav-inside {
+  width: 55%;
+  margin: auto;
+  text-align: end;
+}
+
 .nav-bar {
-  text-align: center;
+  width: 70%;
+  margin: auto;
 }
 
 li {
@@ -17,17 +24,125 @@ li {
   display: inline-block;
   padding: 20px;
   vertical-align: middle;
+  font-family: "Roboto", sans-serif;
 }
 
 li a {
   text-decoration: none;
   color: black;
+  font-size: 15px;
 }
 
 li a:hover {
-  color: #409fff;
+  color: #0C7CEC;
   cursor: pointer;
-  border-bottom: 4px solid #409fff;
-  height: 109px;
+  border-bottom: 4px solid #0C7CEC;
+}
+
+.logo {
+  width: 90px;
+}
+
+.inline {
+  display: inline-block;
+}
+
+.head-p {
+  color: white;
+  padding-left: 10%;
+  font-family: "Roboto", sans-serif;
+}
+
+.hr {
+  color: #0C7CEC;
+}
+
+.bg-main {
+  background-image: url(/images/jumbotron.jpg?1b0a3671766964a4114f90322970b124);
+  height: 400px;
+  background-color: red;
+}
+
+.current-series {
+  background-color: #0C7CEC;
+  width: 300px;
+  text-align: center;
+  color: white;
+  padding: 10px;
+  font-family: "Roboto", sans-serif;
+  position: absolute;
+  margin-top: -1.5%;
+}
+
+.bg-black-series {
+  background-color: rgb(34, 34, 34);
+  height: 960px;
+}
+
+.container {
+  width: 75%;
+  margin: auto;
+  margin-left: 17%;
+}
+
+.card {
+  width: 14.2857142857%;
+  display: inline-block;
+  margin-top: 70px;
+  margin-left: 10px;
+}
+
+.series {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+
+.button {
+  padding: 7px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: #0C7CEC;
+  border: 0px solid;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  margin-top: 80px;
+  margin-left: 39%;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.bg-color {
+  background-color: #0080ff;
+  text-align: center;
+}
+
+.content {
+  color: white;
+  padding: 60px;
+}
+
+.logo-svg {
+  width: 80px;
+}
+
+.li2 {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 30px;
+  padding-left: 50px;
+}
+
+.logo {
+  width: 80px;
+}
+
+p {
+  display: inline-block;
+  color: white;
+  margin-left: -20px;
 }
 
